@@ -568,6 +568,7 @@ ul {
 }
 
 .footer-section .footer-main .footer-right {
+  margin-left: 70px;
 }
 
 .footer-section .footer-main .footer-right .footer-subscribe {
@@ -606,12 +607,7 @@ ul {
   color: #ffffff;
 }
 
-.footer-section
-  .footer-main
-  .footer-right
-  .footer-form
-  .footer-label
-  .form-button {
+.footer-section .footer-main .footer-right .footer-form .form-button {
   min-width: 165px;
   height: 40px;
   display: flex;
