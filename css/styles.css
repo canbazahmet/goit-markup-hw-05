@@ -587,7 +587,12 @@ ul {
 .footer-section .footer-main .footer-right .footer-form .footer-label {
 }
 
-.footer-section .footer-main .footer-right .footer-form .footer-label .form-email {
+.footer-section
+  .footer-main
+  .footer-right
+  .footer-form
+  .footer-label
+  .form-email {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -601,7 +606,12 @@ ul {
   color: #ffffff;
 }
 
-.footer-section .footer-main .footer-right .footer-form .footer-label .form-button {
+.footer-section
+  .footer-main
+  .footer-right
+  .footer-form
+  .footer-label
+  .form-button {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -614,7 +624,7 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
 }
