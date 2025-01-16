@@ -30,6 +30,7 @@ ul {
 
 .header-section .header-top {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-section .header-top .nav-menu {
@@ -97,7 +98,6 @@ ul {
 
 .header-section .header-top .info {
   font-style: normal;
-  margin-left: 333px;
 }
 
 .header-section .header-top .info .info-links {
@@ -643,7 +643,6 @@ ul {
 }
 
 .modal-window {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
