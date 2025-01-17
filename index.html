@@ -498,14 +498,30 @@
     </footer>
     <!-- Footer Bitti -->
     <!-- Modal -->
-    <div class="modal-window">
+    <div class="modal-window is-open">
       <div class="modal-container">
         <button type="button" class="modal-button">
           <svg class="modal-icon-x" width="8" height="8">
-            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form name="modal">
+          <div class="user-name">
+            <label for="user-name" class="user-name-label">Name</label>
+            <div class="svg-input">
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                class="user-name-input"
+              />
+              <svg class="icon-user-name" width="24" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
     <!-- Modal Bitti -->
