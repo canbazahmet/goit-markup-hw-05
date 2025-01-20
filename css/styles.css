@@ -834,3 +834,12 @@ ul {
   justify-content: center;
   fill: transparent;
 }
+
+.modal-window
+  .modal-container
+  .form-div-checkbox
+  .form-label-checkbox
+  .form-label-span
+  .icon-checkmark {
+  fill: red;
+}
