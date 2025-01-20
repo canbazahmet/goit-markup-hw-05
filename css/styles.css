@@ -20,6 +20,19 @@ ul {
   padding: 0 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .header-section {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
@@ -177,19 +190,6 @@ ul {
 
 .features-section {
   padding: 120px 0;
-}
-
-.features-section .container .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .features-section .container .features-items {
@@ -807,7 +807,6 @@ ul {
 }
 
 .modal-window .modal-container .form-div-checkbox .form-checkbox {
-  visibility: hidden;
 }
 
 .modal-window .modal-container .form-div-checkbox .form-label-checkbox {
@@ -835,11 +834,5 @@ ul {
   fill: transparent;
 }
 
-.modal-window
-  .modal-container
-  .form-div-checkbox
-  .form-label-checkbox
-  .form-label-span
-  .icon-checkmark {
-  fill: red;
+.modal-window .modal-container .form-div-checkbox .form-label-span .form-icon {
 }
