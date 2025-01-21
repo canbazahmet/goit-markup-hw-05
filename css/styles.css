@@ -227,7 +227,7 @@ ul {
 .features-section .container .features-items .features-item .features-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   color: #434455;
   margin: 0;
 }
@@ -835,6 +835,13 @@ ul {
   margin-right: 5px;
 }
 
+.modal-window .modal-container .form-div-checkbox input:checked + .form-label-checkbox .form-label-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
+
+
 .modal-window .modal-container .form-div-checkbox .form-label-span .form-icon {
   fill: #f4f4fd;
 }
@@ -857,8 +864,7 @@ ul {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin: 0 auto;
 }
