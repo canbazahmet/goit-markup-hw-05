@@ -835,12 +835,16 @@ ul {
   margin-right: 5px;
 }
 
-.modal-window .modal-container .form-div-checkbox input:checked + .form-label-checkbox .form-label-span {
+.modal-window
+  .modal-container
+  .form-div-checkbox
+  .visually-hidden:checked
+  + .form-label-checkbox
+  .form-label-span {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
-
 
 .modal-window .modal-container .form-div-checkbox .form-label-span .form-icon {
   fill: #f4f4fd;
